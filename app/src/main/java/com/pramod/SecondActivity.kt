@@ -20,6 +20,7 @@ import java.util.*
 class SecondActivity :AppCompatActivity()
 {
     lateinit var textView: TextView
+
     lateinit var switch1: Switch
     lateinit var next: Button
     lateinit var dob: EditText
