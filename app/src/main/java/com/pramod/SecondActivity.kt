@@ -24,10 +24,8 @@ class SecondActivity :AppCompatActivity()
     lateinit var switch1: Switch
     lateinit var next: Button
     lateinit var dob: EditText
-    lateinit var stringYa: String
+    lateinit var stringY: String
     lateinit var recyclerView: RecyclerView
-
-
 
     override fun onCreate(savedInstanceState: Bundle?)
     {
