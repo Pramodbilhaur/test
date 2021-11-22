@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/parentPanel"
+    android:layout_width="match_parent"
+    android:background="#f0f0f0"
+    android:layout_margin="16dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        tools:ignore="UselessParent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="name_list"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/year"
+            android:textSize="20sp"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="year_name"/>
+
+        <TextView
+            android:id="@+id/color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/year"
+            android:layout_below="@+id/name"
+            android:text="color"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pantone_value"
+            android:textSize="20sp"
+            android:layout_below="@+id/year"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="Pantone_Value"/>
+    </RelativeLayout>
+</RelativeLayout>

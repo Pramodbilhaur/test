@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/recycle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recycle"
+        android:layout_marginTop="28dp"
+        android:layout_centerHorizontal="true"
+        android:text="main" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="90dp"
+        android:checked="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_height="22dp"
+        android:layout_below="@+id/textView"
+        android:text="Switch"/>
+
+
+
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="date"
+        android:hint="Enter Date of Birth"
+        android:layout_below="@id/switch1"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/dob"
+        android:text="Next"
+        />
+</RelativeLayout>
